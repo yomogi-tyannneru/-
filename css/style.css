@@ -1,0 +1,32 @@
+.parent {
+  color: #000080;
+  display: flex;
+}
+.child {
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  letter-spacing: 2em;
+  font-size: 12px;
+  width: 700px;
+  padding: 10px;
+  margin: 10px;
+}
+.firstview {
+  width: 50%;
+}
+.box {
+  width: 400px;
+  height: 200px;
+  margin: 50px auto;
+  background: #000080;
+}
+.txt {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
