@@ -1,6 +1,7 @@
 .parent {
   color: #000080;
   display: flex;
+  justify-content: space-around;
 }
 .child {
   width: 100px;
@@ -8,21 +9,21 @@
   margin: 10px;
 }
 .menu {
-  display: flex;
   justify-content: flex-end;
-  letter-spacing: 2em;
+  display: flex;
+  width: 400px;
   font-size: 12px;
-  width: 700px;
   padding: 10px;
   margin: 10px;
+  margin-right: 5px;
 }
-.firstview {
+.img {
   width: 50%;
+  z-index: auto;
 }
 .box {
   width: 400px;
   height: 200px;
-  margin: 50px auto;
   background: #000080;
 }
 .txt {
