@@ -2,6 +2,7 @@
   color: #000080;
   display: flex;
   justify-content: space-around;
+  height:70px; 
 }
 .child {
   width: 100px;
@@ -20,14 +21,20 @@
 .img {
   width: 50%;
   z-index: auto;
+  position: absolute;
+  bottom: 350px;
+  left: 550px;
 }
 .box {
-  width: 400px;
-  height: 200px;
+  width: 750px;
+  height: 150px;
   background: #000080;
 }
 .txt {
   position: relative;
-  top: 50px;
-  left: 50px;
+  top: 280px;
 }
+h3 {
+  font-size: 50px;
+}
+
