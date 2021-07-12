@@ -1,28 +1,31 @@
 .parent {
   color: #000080;
   display: flex;
-  justify-content: space-around;
-  height:70px; 
+  /* justify-content: space-around; */
+  justify-content: space-between;
+  height: 70px;
 }
 .child {
   width: 100px;
-  padding: 10px;
+  padding: 20px 10px;
   margin: 10px;
+  font-weight: bold;
 }
 .menu {
+  display: inline-block;
   justify-content: flex-end;
   display: flex;
-  width: 400px;
+  /* width: 400px; */
   font-size: 12px;
   padding: 10px;
-  margin: 10px;
   margin-right: 5px;
+  font-weight: bold;
 }
 .img {
   width: 50%;
   z-index: auto;
   position: absolute;
-  bottom: 350px;
+  bottom: 420px;
   left: 550px;
 }
 .box {
@@ -36,5 +39,5 @@
 }
 h3 {
   font-size: 50px;
+  font-weight: lighter;
 }
-
