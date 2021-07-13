@@ -25,8 +25,8 @@
   width: 50%;
   z-index: auto;
   position: absolute;
-  bottom: 420px;
-  left: 550px;
+  top: 110px;
+  right: 0px;
 }
 .box {
   width: 750px;
